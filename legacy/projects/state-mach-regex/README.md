@@ -5,6 +5,8 @@
 1. Draw out the state machine for a car's turn signal system. What are the
    transitions leading to both lights not blinking, one light blinking, the
    other light blinking, or both lights blinking?
+   
+   [Link to State Machine](https://www.figma.com/file/Z5vQi8cXCWYXPbgpCgYQFfDK/Untitled?node-id=0%3A1)
 
 ## Regular Expressions
 
