@@ -10,16 +10,20 @@ if __name__ == '__main__':
 # Filename is 2nd command line arg
 filename = sys.argv[1]
 
-# TODO Read HTML file
+# Read HTML file
 
 with open(filename) as file:
     filedata = file.read()
     file.close()
 
-# TODO Set up regex
+# Set up regex
+
+regex = r'https?:\/\/[0-9A-z-]+.?\w+.[A-z]{2,3}\/?[0-9A-z\/=@#%&;_.?-]+'
 
 
-# TODO Find links using regex, save in list called 'matches'
+# Find links using regex, save in list called 'matches'
+
+matches = re.findall(regex, filedata)
 
 
 # Check matches, print results
