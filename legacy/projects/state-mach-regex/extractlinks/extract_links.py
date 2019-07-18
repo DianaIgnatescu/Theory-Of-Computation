@@ -18,7 +18,7 @@ with open(filename) as file:
 
 # Set up regex
 
-regex = r'https?:\/\/[0-9A-z-]+.?\w+.[A-z]{2,3}\/?[0-9A-z\/=@#%&;_.?-]+'
+regex = r'https?:\/\/[0-9A-z-]+?\w+.[A-z]{2,3}\/?[0-9A-z\/=@#%&;_.?-]+'
 
 
 # Find links using regex, save in list called 'matches'
